@@ -11,16 +11,14 @@ namespace DAL
 {
     public class UserDAL
     {
-        SqlConnection conn = null;
         public User GetUserLogin(string UserName, string Password)
         {
             User user = null;
             try
             {
-                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
-                conn = new SqlConnection(conStr);
-                conn.Open();
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT*FROM dbo.[User] WHERE UserName = '" + UserName + "' AND Password =  '" + Password + "'", conn);
+                Connection.Creat_connect();
+                Connection.Open_connect();
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT*FROM dbo.[User] WHERE UserName = '" + UserName + "' AND Password =  '" + Password + "'", Connection.connect());
                 DataTable dt = new DataTable();
                 ad.Fill(dt);
                 user = new User()
@@ -33,7 +31,7 @@ namespace DAL
                     dateTime = DateTime.Parse(dt.Rows[0][5].ToString()),
                     Role = dt.Rows[0][6].ToString()
                 };
-                conn.Close();
+                Connection.Close_connect();
             }
             catch
             {
@@ -47,12 +45,10 @@ namespace DAL
             User user = null;
             try
             {
-                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
-                conn = new SqlConnection(conStr);
-                conn.Open();
-                SqlCommand cm = new SqlCommand("UPDATE dbo.[User] SET FirstName = N'" + FirstName + "',LastName = N'" + LastName + "',BirthDate ='" + BirthDate + "',Role ='" + Role + "'", conn);
+                Connection.Open_connect();
+                SqlCommand cm = new SqlCommand("UPDATE dbo.[User] SET FirstName = N'" + FirstName + "',LastName = N'" + LastName + "',BirthDate ='" + BirthDate + "',Role ='" + Role + "'",Connection.connect());
                 cm.ExecuteNonQuery();
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT*FROM dbo.[User] WHERE ID = '" + ID + "'", conn);
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT*FROM dbo.[User] WHERE ID = '" + ID + "'", Connection.connect());
                 DataTable dt = new DataTable();
                 ad.Fill(dt);
                 user = new User()
@@ -65,7 +61,7 @@ namespace DAL
                     dateTime = DateTime.Parse(dt.Rows[0][5].ToString()),
                     Role = dt.Rows[0][6].ToString()
                 };
-                conn.Close();
+                Connection.Close_connect();
             }
             catch
             {
@@ -79,10 +75,8 @@ namespace DAL
             try
             {
                 list = new List<User>();
-                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
-                conn = new SqlConnection(conStr);
-                conn.Open();
-                SqlCommand cm = new SqlCommand("SELECT*FROM dbo.[User]", conn);
+                Connection.Open_connect();
+                SqlCommand cm = new SqlCommand("SELECT*FROM dbo.[User]",Connection.connect());
                 SqlDataReader rd = cm.ExecuteReader();
                 while (rd.Read())
                 {
@@ -98,7 +92,7 @@ namespace DAL
                     };
                     list.Add(user);
                 }
-                conn.Close();
+                Connection.Close_connect();
             }
             catch
             {
@@ -110,10 +104,8 @@ namespace DAL
         {
             //try
             //{
-                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
-                conn = new SqlConnection(conStr);
-                conn.Open();
-                SqlCommand cm = new SqlCommand("INSERT INTO dbo.[User] VALUES(@tk,@mk,@fn,@ln,@bd,@role)", conn);
+                Connection.Open_connect();
+            SqlCommand cm = new SqlCommand("INSERT INTO dbo.[User] VALUES(@tk,@mk,@fn,@ln,@bd,@role)", Connection.connect());
                 cm.Parameters.AddWithValue("tk", user.UserName);
                 cm.Parameters.AddWithValue("mk", user.Password);
                 cm.Parameters.AddWithValue("fn", user.FirstName);
