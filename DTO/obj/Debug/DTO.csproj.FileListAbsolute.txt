@@ -1,0 +1,6 @@
+D:\TaiLieu\BTLWindow\QLNS\DTO\bin\Debug\DTO.dll
+D:\TaiLieu\BTLWindow\QLNS\DTO\bin\Debug\DTO.pdb
+D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.dll
+D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.pdb
