@@ -4,3 +4,15 @@ D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.dll
 D:\TaiLieu\BTLWindow\QLNS\DTO\obj\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DTO\bin\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DTO\bin\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DTO\obj\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DTO\obj\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DTO\bin\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DTO\bin\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DTO\obj\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DTO\obj\Debug\DTO.pdb

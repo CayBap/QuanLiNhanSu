@@ -14,11 +14,12 @@ namespace DAL
         public User GetUserLogin(string UserName, string Password)
         {
             User user = null;
+           
             try
             {
                 Connection.Creat_connect();
                 Connection.Open_connect();
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT*FROM dbo.[User] WHERE UserName = '" + UserName + "' AND Password =  '" + Password + "'", Connection.connect());
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT * FROM [User] WHERE UserName = '" + UserName + "' AND Password =  '" + Password + "'", Connection.connect());
                 DataTable dt = new DataTable();
                 ad.Fill(dt);
                 user = new User()
