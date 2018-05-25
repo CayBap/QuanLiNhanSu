@@ -108,8 +108,8 @@ namespace DAL
         }
         public bool AddUser(User user)
         {
-            //try
-            //{
+            try
+            {
                 string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
                 conn = new SqlConnection(conStr);
                 conn.Open();
@@ -121,12 +121,78 @@ namespace DAL
                 cm.Parameters.AddWithValue("bd", user.dateTime);
                 cm.Parameters.AddWithValue("role", user.Role);
                 cm.ExecuteNonQuery();
-            //}
-            //catch
-            //{
-            //    return false;
-            //}
+            }
+            catch
+            {
+                return false;
+            }
             return true;
+        }
+        public bool UpdateUser(User user)
+        {
+            try
+            {
+                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
+                conn = new SqlConnection(conStr);
+                conn.Open();
+                SqlCommand cm = new SqlCommand("UPDATE dbo.[User] SET LastName = '"+user.LastName+"',FirstName  = '"+user.FirstName+"', BirthDate = '"+user.dateTime+"',Role = '"+user.Role+"' where ID = "+user.ID, conn);
+                cm.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+
+                return false;
+            }
+        }
+        public bool DeleteUser(int ID)
+        {
+            try
+            {
+                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
+                conn = new SqlConnection(conStr);
+                conn.Open();
+                SqlCommand cm = new SqlCommand("DELETE dbo.[User] WHERE ID  = " + ID, conn);
+                cm.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+
+                return false;
+            }
+        }
+
+        public User GetUserByID(int id)
+        {
+           User user = null;
+            try
+            {
+                string conStr = ConfigurationManager.ConnectionStrings["conStr"].ToString();
+                conn = new SqlConnection(conStr);
+                conn.Open();
+                SqlCommand cm = new SqlCommand("SELECT*FROM dbo.[User] where ID= "+id, conn);
+                SqlDataReader rd = cm.ExecuteReader();
+                while (rd.Read())
+                {
+                     user = new User()
+                    {
+                        ID = rd.GetInt32(0),
+                        UserName = rd.GetString(1),
+                        Password = rd.GetString(2),
+                        FirstName = rd.GetString(3),
+                        LastName = rd.GetString(4),
+                        dateTime = rd.GetDateTime(5),
+                        Role = rd.GetString(6)
+                    };
+                }
+                conn.Close();
+            }
+            catch
+            {
+                user = null;
+            }
+            return user;
         }
     }
 }

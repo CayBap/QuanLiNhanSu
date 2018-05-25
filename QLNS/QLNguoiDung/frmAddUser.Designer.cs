@@ -62,7 +62,7 @@
             this.txtUserName.Location = new System.Drawing.Point(119, 29);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(197, 21);
-            this.txtUserName.TabIndex = 1;
+            this.txtUserName.TabIndex = 0;
             // 
             // label2
             // 
@@ -94,7 +94,7 @@
             this.txtRePass.Location = new System.Drawing.Point(119, 116);
             this.txtRePass.Name = "txtRePass";
             this.txtRePass.Size = new System.Drawing.Size(197, 21);
-            this.txtRePass.TabIndex = 1;
+            this.txtRePass.TabIndex = 2;
             // 
             // label4
             // 
@@ -110,7 +110,7 @@
             this.txtName.Location = new System.Drawing.Point(119, 159);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(197, 21);
-            this.txtName.TabIndex = 1;
+            this.txtName.TabIndex = 3;
             // 
             // label5
             // 
@@ -126,7 +126,7 @@
             this.txtLastName.Location = new System.Drawing.Point(119, 206);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(197, 21);
-            this.txtLastName.TabIndex = 1;
+            this.txtLastName.TabIndex = 4;
             // 
             // label6
             // 
@@ -140,10 +140,11 @@
             // rdoUser
             // 
             this.rdoUser.AutoSize = true;
+            this.rdoUser.Checked = true;
             this.rdoUser.Location = new System.Drawing.Point(114, 296);
             this.rdoUser.Name = "rdoUser";
             this.rdoUser.Size = new System.Drawing.Size(89, 17);
-            this.rdoUser.TabIndex = 2;
+            this.rdoUser.TabIndex = 6;
             this.rdoUser.TabStop = true;
             this.rdoUser.Text = "Người dùng";
             this.rdoUser.UseVisualStyleBackColor = true;
@@ -154,8 +155,7 @@
             this.rdoAdmin.Location = new System.Drawing.Point(218, 296);
             this.rdoAdmin.Name = "rdoAdmin";
             this.rdoAdmin.Size = new System.Drawing.Size(71, 17);
-            this.rdoAdmin.TabIndex = 2;
-            this.rdoAdmin.TabStop = true;
+            this.rdoAdmin.TabIndex = 7;
             this.rdoAdmin.Text = "Quản trị";
             this.rdoAdmin.UseVisualStyleBackColor = true;
             // 
@@ -178,7 +178,7 @@
             this.btnAdd.Location = new System.Drawing.Point(69, 361);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 3;
+            this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Thêm mới";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.button1_Click);
@@ -193,7 +193,7 @@
             this.btnCancel.Location = new System.Drawing.Point(218, 361);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 3;
+            this.btnCancel.TabIndex = 9;
             this.btnCancel.Text = "Hủy";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.button2_Click);
@@ -204,7 +204,7 @@
             this.dtpNgaySinh.Location = new System.Drawing.Point(119, 247);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(197, 21);
-            this.dtpNgaySinh.TabIndex = 4;
+            this.dtpNgaySinh.TabIndex = 5;
             // 
             // lblThongBao
             // 

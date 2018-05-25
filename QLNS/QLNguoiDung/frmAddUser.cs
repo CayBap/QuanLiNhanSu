@@ -47,11 +47,11 @@ namespace QLNS.QLNguoiDung
                     bool check = new UserBUL().AddUser(user);
                     if (check == true)
                     {
-                        MessageBox.Show("Thông báo", "Thêm người dùng thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Thêm người dùng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("Thông báo", "Thêm người dùng thất bại", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Thêm người dùng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     this.Close();
                 }

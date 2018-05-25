@@ -88,5 +88,34 @@ namespace QLNS
             new frmAddUser().ShowDialog();
             LoadDS();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dtgDSUser.CurrentRow.Cells[6].Value!=null)
+            {
+                 int id = (int)dtgDSUser.CurrentRow.Cells[6].Value;
+                bool check = new UserBUL().DeleteUser(id);
+                if (check == true)
+                {
+                    MessageBox.Show("Xóa người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadDS();
+                }
+                else
+                {
+                    MessageBox.Show("Xóa người dùng thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            if (dtgDSUser.CurrentRow.Cells[6].Value!=null)
+            {
+                int id =(int) dtgDSUser.CurrentRow.Cells[6].Value;
+                User u =    new UserBUL().GetUserByID(id);
+                frmUpdateUser.user = u;
+                new frmUpdateUser().ShowDialog();
+            }
+        }
     }
 }

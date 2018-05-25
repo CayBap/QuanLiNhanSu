@@ -8,3 +8,13 @@ D:\TaiLieu\BTLWindow\QLNS\DAL\bin\Debug\DTO.pdb
 D:\TaiLieu\BTLWindow\QLNS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TaiLieu\BTLWindow\QLNS\DAL\obj\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QLNS\DAL\obj\Debug\DAL.pdb
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.dll.config
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.dll
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.pdb
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DTO.dll
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DTO.pdb
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.dll
+D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.pdb

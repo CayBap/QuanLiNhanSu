@@ -23,9 +23,21 @@ namespace BUL
         }
         public bool AddUser(User user)
         {
-            UserBUL bul = new UserBUL();
+            UserDAL bul = new UserDAL();
             bool check = bul.AddUser(user);
             return check;
+        }
+        public bool UpdateUser(User user)
+        {
+            return new UserDAL().UpdateUser(user);
+        }
+        public bool DeleteUser(int ID)
+        {
+            return new UserDAL().DeleteUser(ID);
+        }
+        public User GetUserByID(int id)
+        {
+            return new UserDAL().GetUserByID(id);
         }
     }
 }

@@ -20,7 +20,11 @@ namespace QLNS
         public static User user = null;
         private void quảnLíThôngTinCáNhânToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            ucQuanLiThongTinCaNhan.user = user;
+            ucQuanLiThongTinCaNhan uc = new ucQuanLiThongTinCaNhan();
+            uc.Dock = DockStyle.Fill;
+            panel3.Controls.Clear();
+            panel3.Controls.Add(uc);
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -82,6 +86,14 @@ namespace QLNS
         private void quảnLíNgườiDùngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ucQuanLiDanhSachNguoiDung uc = new ucQuanLiDanhSachNguoiDung();
+            uc.Dock = DockStyle.Fill;
+            panel3.Controls.Clear();
+            panel3.Controls.Add(uc);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ucQuanLiNhanVienChucVu uc = new ucQuanLiNhanVienChucVu();
             uc.Dock = DockStyle.Fill;
             panel3.Controls.Clear();
             panel3.Controls.Add(uc);
