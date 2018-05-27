@@ -78,7 +78,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(87, 23);
             this.btnAdd.TabIndex = 6;
-            this.btnAdd.Text = "Thêm mới";
+            this.btnAdd.Text = "Cập nhập";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 

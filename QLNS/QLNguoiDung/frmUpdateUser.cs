@@ -33,11 +33,11 @@ namespace QLNS.QLNguoiDung
                 txtName.Text = user.FirstName;
                 txtLastName.Text = user.LastName;
                 dtpNgaySinh.Value = user.dateTime;
-                if (user.Role == "admin")
+                if (user.Role.Trim() == "admin")
                 {
                     rdoAdmin.Checked = true;
                 }
-                if (user.Role == "user")
+                if (user.Role.Trim() == "user")
                 {
                     rdoUser.Checked = true;
                 }
@@ -62,6 +62,7 @@ namespace QLNS.QLNguoiDung
             {
                 user.Role = "admin";
             }
+            
            bool check =  new UserBUL().UpdateUser(user);
             if (check == true)
             {

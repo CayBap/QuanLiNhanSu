@@ -8,7 +8,23 @@ D:\TaiLieu\BTLWindow\QLNS\DAL\bin\Debug\DTO.pdb
 D:\TaiLieu\BTLWindow\QLNS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TaiLieu\BTLWindow\QLNS\DAL\obj\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QLNS\DAL\obj\Debug\DAL.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.dll.config
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\bin\Debug\DAL.dll.config
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\bin\Debug\DAL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\bin\Debug\DAL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\bin\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\bin\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\obj\Debug\DAL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\DAL\obj\Debug\DAL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\bin\Debug\DAL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\bin\Debug\DAL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\bin\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\bin\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.pdb
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.pdb
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DTO.dll

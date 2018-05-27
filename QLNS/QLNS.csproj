@@ -32,6 +32,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -58,6 +77,12 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTrinhDoNgoaiNgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrinhDoNgoaiNgu.Designer.cs">
+      <DependentUpon>frmTrinhDoNgoaiNgu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper\Bcrypt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,16 +98,39 @@
     <Compile Include="QLNguoiDung\frmUpdateUser.Designer.cs">
       <DependentUpon>frmUpdateUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLNhanVienChucVu\frmAddNhanVienChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVienChucVu\frmAddNhanVienChucVu.Designer.cs">
+      <DependentUpon>frmAddNhanVienChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVienChucVu\frmSuaNhanVienChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVienChucVu\frmSuaNhanVienChucVu.Designer.cs">
+      <DependentUpon>frmSuaNhanVienChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ucIntro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucIntro.Designer.cs">
+      <DependentUpon>ucIntro.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucQuanLiCongTac.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucQuanLiCongTac.Designer.cs">
       <DependentUpon>ucQuanLiCongTac.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiDanhSachNguoiDung.cs">
+    <Compile Include="QLNguoiDung\ucQuanLiDanhSachNguoiDung.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiDanhSachNguoiDung.Designer.cs">
+    <Compile Include="QLNguoiDung\ucQuanLiDanhSachNguoiDung.Designer.cs">
       <DependentUpon>ucQuanLiDanhSachNguoiDung.cs</DependentUpon>
     </Compile>
     <Compile Include="ucQuanLiHoSo.cs">
@@ -91,10 +139,10 @@
     <Compile Include="ucQuanLiHoSo.Designer.cs">
       <DependentUpon>ucQuanLiHoSo.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiNhanVienChucVu.cs">
+    <Compile Include="QLNhanVienChucVu\ucQuanLiNhanVienChucVu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiNhanVienChucVu.Designer.cs">
+    <Compile Include="QLNhanVienChucVu\ucQuanLiNhanVienChucVu.Designer.cs">
       <DependentUpon>ucQuanLiNhanVienChucVu.cs</DependentUpon>
     </Compile>
     <Compile Include="ucQuanLiThongTinCaNhan.cs">
@@ -121,6 +169,9 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTrinhDoNgoaiNgu.resx">
+      <DependentUpon>frmTrinhDoNgoaiNgu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -136,21 +187,33 @@
     <EmbeddedResource Include="QLNguoiDung\frmUpdateUser.resx">
       <DependentUpon>frmUpdateUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVienChucVu\frmAddNhanVienChucVu.resx">
+      <DependentUpon>frmAddNhanVienChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVienChucVu\frmSuaNhanVienChucVu.resx">
+      <DependentUpon>frmSuaNhanVienChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpTrinhDoNgoaiNgu.rdlc" />
+    <EmbeddedResource Include="ucIntro.resx">
+      <DependentUpon>ucIntro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucQuanLiCongTac.resx">
       <DependentUpon>ucQuanLiCongTac.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQuanLiDanhSachNguoiDung.resx">
+    <EmbeddedResource Include="QLNguoiDung\ucQuanLiDanhSachNguoiDung.resx">
       <DependentUpon>ucQuanLiDanhSachNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucQuanLiHoSo.resx">
       <DependentUpon>ucQuanLiHoSo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQuanLiNhanVienChucVu.resx">
+    <EmbeddedResource Include="QLNhanVienChucVu\ucQuanLiNhanVienChucVu.resx">
       <DependentUpon>ucQuanLiNhanVienChucVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucQuanLiThongTinCaNhan.resx">
       <DependentUpon>ucQuanLiThongTinCaNhan.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\DTO.NhanVienChucVu.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -160,6 +223,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QLNSDataSet.xsc">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet.xss">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

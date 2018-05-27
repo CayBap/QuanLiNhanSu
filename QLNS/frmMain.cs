@@ -98,5 +98,15 @@ namespace QLNS
             panel3.Controls.Clear();
             panel3.Controls.Add(uc);
         }
+
+        private void btnQuanLiTrinhDoNgoaiNgu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trìnhĐộNgoạiNgữToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new frmTrinhDoNgoaiNgu().ShowDialog();
+        }
     }
 }

@@ -10,12 +10,32 @@ D:\TaiLieu\BTLWindow\QLNS\BUL\bin\Debug\DTO.pdb
 D:\TaiLieu\BTLWindow\QLNS\BUL\obj\Debug\BUL.csproj.CopyComplete
 D:\TaiLieu\BTLWindow\QLNS\BUL\obj\Debug\BUL.dll
 D:\TaiLieu\BTLWindow\QLNS\BUL\obj\Debug\BUL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\BUL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\BUL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\DAL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\DAL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\DAL.dll.config
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\bin\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\obj\Debug\BUL.csproj.CoreCompileInputs.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\obj\Debug\BUL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\BUL\obj\Debug\BUL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\bin\Debug\BUL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\bin\Debug\BUL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\bin\Debug\DAL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\bin\Debug\DTO.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\bin\Debug\DAL.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\bin\Debug\DTO.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\obj\Debug\BUL.csproj.CoreCompileInputs.cache
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\obj\Debug\BUL.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\BUL\obj\Debug\BUL.pdb
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\BUL.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\BUL.pdb
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\DTO.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\DAL.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\DAL.dll.config
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\bin\Debug\DTO.pdb
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\BUL\obj\Debug\BUL.csproj.CoreCompileInputs.cache
