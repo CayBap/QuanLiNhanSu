@@ -88,5 +88,10 @@ namespace QLNS
             new frmAddUser().ShowDialog();
             LoadDS();
         }
+
+        private void dtgDSUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

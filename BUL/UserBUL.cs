@@ -23,7 +23,7 @@ namespace BUL
         }
         public bool AddUser(User user)
         {
-            UserBUL bul = new UserBUL();
+            UserDAL bul = new UserDAL();
             bool check = bul.AddUser(user);
             return check;
         }
