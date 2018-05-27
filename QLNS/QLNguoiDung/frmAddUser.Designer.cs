@@ -53,7 +53,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(38, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 13);
+            this.label1.Size = new System.Drawing.Size(82, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tải khoản:";
             // 
@@ -61,7 +61,7 @@
             // 
             this.txtUserName.Location = new System.Drawing.Point(119, 29);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(197, 21);
+            this.txtUserName.Size = new System.Drawing.Size(197, 24);
             this.txtUserName.TabIndex = 1;
             // 
             // label2
@@ -69,7 +69,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 13);
+            this.label2.Size = new System.Drawing.Size(78, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mật khẩu:";
             // 
@@ -77,7 +77,7 @@
             // 
             this.txtPass.Location = new System.Drawing.Point(119, 73);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(197, 21);
+            this.txtPass.Size = new System.Drawing.Size(197, 24);
             this.txtPass.TabIndex = 1;
             // 
             // label3
@@ -85,7 +85,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(38, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 13);
+            this.label3.Size = new System.Drawing.Size(95, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "Nhập lại MK:";
             // 
@@ -93,7 +93,7 @@
             // 
             this.txtRePass.Location = new System.Drawing.Point(119, 116);
             this.txtRePass.Name = "txtRePass";
-            this.txtRePass.Size = new System.Drawing.Size(197, 21);
+            this.txtRePass.Size = new System.Drawing.Size(197, 24);
             this.txtRePass.TabIndex = 1;
             // 
             // label4
@@ -101,7 +101,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(38, 159);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.Size = new System.Drawing.Size(40, 17);
             this.label4.TabIndex = 0;
             this.label4.Text = "Tên:";
             // 
@@ -109,7 +109,7 @@
             // 
             this.txtName.Location = new System.Drawing.Point(119, 159);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(197, 21);
+            this.txtName.Size = new System.Drawing.Size(197, 24);
             this.txtName.TabIndex = 1;
             // 
             // label5
@@ -117,7 +117,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(38, 206);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(27, 13);
+            this.label5.Size = new System.Drawing.Size(33, 17);
             this.label5.TabIndex = 0;
             this.label5.Text = "Họ:";
             // 
@@ -125,7 +125,7 @@
             // 
             this.txtLastName.Location = new System.Drawing.Point(119, 206);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(197, 21);
+            this.txtLastName.Size = new System.Drawing.Size(197, 24);
             this.txtLastName.TabIndex = 1;
             // 
             // label6
@@ -133,7 +133,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(38, 250);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 13);
+            this.label6.Size = new System.Drawing.Size(83, 17);
             this.label6.TabIndex = 0;
             this.label6.Text = "Ngày sinh:";
             // 
@@ -142,7 +142,7 @@
             this.rdoUser.AutoSize = true;
             this.rdoUser.Location = new System.Drawing.Point(114, 296);
             this.rdoUser.Name = "rdoUser";
-            this.rdoUser.Size = new System.Drawing.Size(89, 17);
+            this.rdoUser.Size = new System.Drawing.Size(111, 21);
             this.rdoUser.TabIndex = 2;
             this.rdoUser.TabStop = true;
             this.rdoUser.Text = "Người dùng";
@@ -153,7 +153,7 @@
             this.rdoAdmin.AutoSize = true;
             this.rdoAdmin.Location = new System.Drawing.Point(218, 296);
             this.rdoAdmin.Name = "rdoAdmin";
-            this.rdoAdmin.Size = new System.Drawing.Size(71, 17);
+            this.rdoAdmin.Size = new System.Drawing.Size(86, 21);
             this.rdoAdmin.TabIndex = 2;
             this.rdoAdmin.TabStop = true;
             this.rdoAdmin.Text = "Quản trị";
@@ -164,7 +164,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(38, 296);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 13);
+            this.label7.Size = new System.Drawing.Size(59, 17);
             this.label7.TabIndex = 0;
             this.label7.Text = "Quyền:";
             // 
@@ -203,7 +203,7 @@
             this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgaySinh.Location = new System.Drawing.Point(119, 247);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
-            this.dtpNgaySinh.Size = new System.Drawing.Size(197, 21);
+            this.dtpNgaySinh.Size = new System.Drawing.Size(197, 24);
             this.dtpNgaySinh.TabIndex = 4;
             // 
             // lblThongBao
@@ -212,12 +212,12 @@
             this.lblThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblThongBao.Location = new System.Drawing.Point(68, 325);
             this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(0, 13);
+            this.lblThongBao.Size = new System.Drawing.Size(0, 17);
             this.lblThongBao.TabIndex = 0;
             // 
             // frmAddUser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(370, 411);
@@ -241,7 +241,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmAddUser";
-            this.Text = "Thêm người dùng";
+            this.Text = "Thêm Quá Trình Công Tác";
             this.Load += new System.EventHandler(this.frmAddUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

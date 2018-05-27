@@ -67,6 +67,24 @@
     <Compile Include="QLNguoiDung\frmAddUser.Designer.cs">
       <DependentUpon>frmAddUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLQuatrinhCongTac\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\add.Designer.cs">
+      <DependentUpon>add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmdelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmdelete.Designer.cs">
+      <DependentUpon>frmdelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmupdate.Designer.cs">
+      <DependentUpon>frmupdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucQuanLiCongTac.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -127,6 +145,15 @@
     <EmbeddedResource Include="QLNguoiDung\frmAddUser.resx">
       <DependentUpon>frmAddUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QLQuatrinhCongTac\add.resx">
+      <DependentUpon>add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLQuatrinhCongTac\frmdelete.resx">
+      <DependentUpon>frmdelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLQuatrinhCongTac\frmupdate.resx">
+      <DependentUpon>frmupdate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucQuanLiCongTac.resx">
       <DependentUpon>ucQuanLiCongTac.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,8 +189,6 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="QLQuaTrinhCongTac\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

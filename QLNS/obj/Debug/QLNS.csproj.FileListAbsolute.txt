@@ -67,3 +67,6 @@ D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.exe
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.pdb
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.add.resources
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.frmdelete.resources
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.frmupdate.resources

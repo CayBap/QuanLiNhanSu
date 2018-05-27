@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using DTO;
 using DAL;
 using System.Data;
+using System.Windows.Forms;
+
 namespace BUL
 {
     public class QuaTrinhCongTacBUL
@@ -21,5 +23,25 @@ namespace BUL
         { return Qt.SearchDAL(ma); }
         public string searchtenBUL(string ma)
         { return Qt.searchtenDAL(ma); }
+
+        public void addBUL(string ma, DateTime tungay, DateTime denngay, string noicongtac, string chucvu)
+        {
+            Qt.addDAL(ma, tungay, denngay, noicongtac, chucvu);
+        }
+
+        public void deleteBUL(string ma, DateTime tungay)
+        {
+
+            Qt.deleteDAL(ma, tungay);
+        }
+        public QuaTrinhCongTac searchMaAndDayBUL(string ma, DateTime tungay)
+        {
+            return Qt.searchMaAndDayDAL(ma, tungay);
+        }
+
+        public void updateBUL(string ma, DateTime tungay, DateTime denngay, string noicongtac, string chucvu)
+        {
+            Qt.updateDAL(ma, tungay, denngay, noicongtac, chucvu);
+        }
     }
 }

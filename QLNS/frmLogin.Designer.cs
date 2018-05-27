@@ -102,6 +102,7 @@
             this.panel3.Size = new System.Drawing.Size(384, 220);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.panel3.Enter += new System.EventHandler(this.btnLogin_Click);
             // 
             // lblThongBao
             // 
@@ -146,6 +147,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(195, 24);
             this.txtPassword.TabIndex = 1;
+            this.txtPassword.Text = "admin";
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // label3
@@ -165,6 +167,7 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(195, 24);
             this.txtUserName.TabIndex = 0;
+            this.txtUserName.Text = "admin";
             this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
             // label2

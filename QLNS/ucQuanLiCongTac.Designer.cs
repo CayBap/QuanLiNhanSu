@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucQuanLiCongTac));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnsearch = new System.Windows.Forms.Button();
             this.txtma = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
@@ -38,7 +39,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvQLCT = new System.Windows.Forms.DataGridView();
-            this.btnsearch = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQLCT)).BeginInit();
             this.SuspendLayout();
@@ -58,6 +58,16 @@
             this.panel1.Size = new System.Drawing.Size(853, 108);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // btnsearch
+            // 
+            this.btnsearch.Location = new System.Drawing.Point(326, 28);
+            this.btnsearch.Name = "btnsearch";
+            this.btnsearch.Size = new System.Drawing.Size(54, 31);
+            this.btnsearch.TabIndex = 6;
+            this.btnsearch.Text = "search";
+            this.btnsearch.UseVisualStyleBackColor = true;
+            this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
             // txtma
             // 
@@ -83,6 +93,7 @@
             this.btnDelete.Size = new System.Drawing.Size(40, 37);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -100,6 +111,7 @@
             this.btnUpdate.Size = new System.Drawing.Size(40, 37);
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -156,16 +168,6 @@
             this.dgvQLCT.Size = new System.Drawing.Size(852, 235);
             this.dgvQLCT.TabIndex = 1;
             this.dgvQLCT.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLCT_CellContentClick);
-            // 
-            // btnsearch
-            // 
-            this.btnsearch.Location = new System.Drawing.Point(326, 28);
-            this.btnsearch.Name = "btnsearch";
-            this.btnsearch.Size = new System.Drawing.Size(54, 31);
-            this.btnsearch.TabIndex = 6;
-            this.btnsearch.Text = "search";
-            this.btnsearch.UseVisualStyleBackColor = true;
-            this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
             // ucQuanLiCongTac
             // 
