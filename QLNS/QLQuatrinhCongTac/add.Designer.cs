@@ -40,12 +40,13 @@
             this.txtNoiCongTac = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtChucVu = new System.Windows.Forms.TextBox();
+            this.lblthongbao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // dtpDenNgay
             // 
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDenNgay.Location = new System.Drawing.Point(134, 114);
+            this.dtpDenNgay.Location = new System.Drawing.Point(153, 111);
             this.dtpDenNgay.Name = "dtpDenNgay";
             this.dtpDenNgay.Size = new System.Drawing.Size(197, 22);
             this.dtpDenNgay.TabIndex = 22;
@@ -91,7 +92,7 @@
             // 
             // txtMaNV
             // 
-            this.txtMaNV.Location = new System.Drawing.Point(134, 22);
+            this.txtMaNV.Location = new System.Drawing.Point(153, 19);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.Size = new System.Drawing.Size(197, 22);
             this.txtMaNV.TabIndex = 16;
@@ -118,7 +119,7 @@
             // dtpTuNgay
             // 
             this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpTuNgay.Location = new System.Drawing.Point(134, 67);
+            this.dtpTuNgay.Location = new System.Drawing.Point(153, 64);
             this.dtpTuNgay.Name = "dtpTuNgay";
             this.dtpTuNgay.Size = new System.Drawing.Size(197, 22);
             this.dtpTuNgay.TabIndex = 22;
@@ -134,7 +135,7 @@
             // 
             // txtNoiCongTac
             // 
-            this.txtNoiCongTac.Location = new System.Drawing.Point(134, 158);
+            this.txtNoiCongTac.Location = new System.Drawing.Point(153, 155);
             this.txtNoiCongTac.Name = "txtNoiCongTac";
             this.txtNoiCongTac.Size = new System.Drawing.Size(197, 22);
             this.txtNoiCongTac.TabIndex = 16;
@@ -150,16 +151,27 @@
             // 
             // txtChucVu
             // 
-            this.txtChucVu.Location = new System.Drawing.Point(134, 201);
+            this.txtChucVu.Location = new System.Drawing.Point(153, 198);
             this.txtChucVu.Name = "txtChucVu";
             this.txtChucVu.Size = new System.Drawing.Size(197, 22);
             this.txtChucVu.TabIndex = 16;
             // 
-            // frmQLQTCT
+            // lblthongbao
+            // 
+            this.lblthongbao.AutoSize = true;
+            this.lblthongbao.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblthongbao.ForeColor = System.Drawing.Color.Red;
+            this.lblthongbao.Location = new System.Drawing.Point(98, 233);
+            this.lblthongbao.Name = "lblthongbao";
+            this.lblthongbao.Size = new System.Drawing.Size(0, 17);
+            this.lblthongbao.TabIndex = 23;
+            // 
+            // add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(392, 340);
+            this.Controls.Add(this.lblthongbao);
             this.Controls.Add(this.dtpTuNgay);
             this.Controls.Add(this.dtpDenNgay);
             this.Controls.Add(this.btnCancel);
@@ -172,7 +184,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMaNV);
             this.Controls.Add(this.label1);
-            this.Name = "frmQLQTCT";
+            this.Name = "add";
             this.Text = "Quản Lí Quá Trình Công Tác";
             this.Load += new System.EventHandler(this.frmQLQTCT_Load);
             this.ResumeLayout(false);
@@ -194,5 +206,6 @@
         private System.Windows.Forms.TextBox txtNoiCongTac;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtChucVu;
+        private System.Windows.Forms.Label lblthongbao;
     }
 }

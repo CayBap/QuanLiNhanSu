@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AnalysisServices.AppLocal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.AnalysisServices.AppLocal.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.AnalysisServices.AppLocal.Tabular, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -84,6 +87,12 @@
     </Compile>
     <Compile Include="QLQuatrinhCongTac\frmupdate.Designer.cs">
       <DependentUpon>frmupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKTrinhDoChuyenMon\frmTKTrinhDoChuyenMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKTrinhDoChuyenMon\frmTKTrinhDoChuyenMon.Designer.cs">
+      <DependentUpon>frmTKTrinhDoChuyenMon.cs</DependentUpon>
     </Compile>
     <Compile Include="ucQuanLiCongTac.cs">
       <SubType>UserControl</SubType>
@@ -154,6 +163,9 @@
     <EmbeddedResource Include="QLQuatrinhCongTac\frmupdate.resx">
       <DependentUpon>frmupdate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TKTrinhDoChuyenMon\frmTKTrinhDoChuyenMon.resx">
+      <DependentUpon>frmTKTrinhDoChuyenMon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucQuanLiCongTac.resx">
       <DependentUpon>ucQuanLiCongTac.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +201,8 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

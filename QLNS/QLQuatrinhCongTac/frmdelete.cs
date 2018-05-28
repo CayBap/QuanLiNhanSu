@@ -21,23 +21,29 @@ namespace QLNS.QLQuatrinhCongTac
         QuaTrinhCongTac QTCTDTO;
         private void btnxoa_Click(object sender, EventArgs e)
         {
-            QTCTDTO = QTCT.searchMaAndDayBUL(txtMaNV.Text, dtpTuNgay.Value);
-            if (QTCTDTO != null)
+            if (txtMaNV.Text != "")
             {
-                dtpDenNgay.Value =QTCTDTO.DenNgay;
-                txtNoiCongTac.Text = QTCTDTO.NoiCongTac.ToString();
-                txtChucVu.Text = QTCTDTO.ChucVu.ToString();
-                DialogResult dlr = MessageBox.Show("bạn chắc chắn muốn xóa", "hỏi", MessageBoxButtons.YesNo);
-                if (dlr == DialogResult.Yes)
-                {
-                    QTCT.deleteBUL(txtMaNV.Text, dtpTuNgay.Value);
-                }
-                else
-                { }
-            }
-            else
+                //QTCTDTO = QTCT.searchMaAndDayBUL(txtMaNV.Text, dtpTuNgay.Value);
+                //if (QTCTDTO != null)
+                //{
+                //    dtpDenNgay.Value =QTCTDTO.DenNgay;
+                //    txtNoiCongTac.Text = QTCTDTO.NoiCongTac.ToString();
+                //    txtChucVu.Text = QTCTDTO.ChucVu.ToString();
+                //    DialogResult dlr = MessageBox.Show("bạn chắc chắn muốn xóa", "hỏi", MessageBoxButtons.YesNo);
+                //    if (dlr == DialogResult.Yes)
+                //    {
+                //        QTCT.deleteBUL(txtMaNV.Text, dtpTuNgay.Value);
+                //    }
+                //    else
+                //    { }
+                //}
+                //else
+                //{
+                //    MessageBox.Show("ma hoac tu ngay khong dung");
+                //}
+            } else
             {
-                MessageBox.Show("ma hoac tu ngay khong dung");
+                lblthongbao.Text = "Mã không được để trống";
             }
            
 

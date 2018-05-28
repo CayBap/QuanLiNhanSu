@@ -63,8 +63,16 @@ namespace QLNS
 
         private void btnsearch_Click(object sender, EventArgs e)
         {
-            dgvQLCT.DataSource = qtct.searchBUL(txtma.Text);
-            lblten.Text = qtct.searchtenBUL(txtma.Text);
+            if (txtma.Text != "")
+            {
+                lblthongbao.Text = "";
+                dgvQLCT.DataSource = qtct.searchBUL(txtma.Text);
+                lblten.Text = qtct.searchtenBUL(txtma.Text);
+            }
+            else
+            {
+                lblthongbao.Text = "mã không được để trống";
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

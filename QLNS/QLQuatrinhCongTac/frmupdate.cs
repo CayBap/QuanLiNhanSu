@@ -41,22 +41,52 @@ namespace QLNS.QLQuatrinhCongTac
         
         private void btnupdate_Click(object sender, EventArgs e)
         {
-            QTCT = QTCTBUL.searchMaAndDayBUL(txtMaNV.Text, dtpTuNgay.Value);
-            if (QTCT != null)
+           
+            if (txtMaNV.Text != "")
             {
-        
-                DialogResult dlr = MessageBox.Show("bạn chắc chắn muốn sửa thông tin", "hỏi", MessageBoxButtons.YesNo);
-                if (dlr == DialogResult.Yes)
+                if (txtNoiCongTac.Text != "")
                 {
-                    QTCTBUL.updateBUL(txtMaNV.Text,dtpTuNgay.Value,dtpDenNgay.Value,txtNoiCongTac.Text,
-                        txtChucVu.Text);
+                    if (txtChucVu.Text != "")
+                    {
+                        if (dtpTuNgay.Value < dtpDenNgay.Value)
+                        {
+                            QTCT = QTCTBUL.searchMaAndDayBUL(txtMaNV.Text, dtpTuNgay.Value);
+                            if (QTCT != null)
+                            {
+
+                                DialogResult dlr = MessageBox.Show("bạn chắc chắn muốn sửa thông tin", "hỏi", MessageBoxButtons.YesNo);
+                                if (dlr == DialogResult.Yes)
+                                {
+                                    QTCTBUL.updateBUL(txtMaNV.Text, dtpTuNgay.Value, dtpDenNgay.Value, txtNoiCongTac.Text,
+                                        txtChucVu.Text);
+                                }
+                                else
+                                { }
+                            }
+                            else
+                            {
+                                MessageBox.Show("ma hoac tu ngay khong dung");
+                            }
+
+                        }
+                        else
+                        {
+                            lblthongbao.Text = "đến ngày phải lớn hơn từ ngày";
+                        }
+                    }
+                    else
+                    {
+                        lblthongbao.Text = "chức vụ không được để trống";
+                    }
                 }
                 else
-                { }
+                {
+                    lblthongbao.Text = "nơi công tác không được để trống";
+                }
             }
             else
             {
-                MessageBox.Show("ma hoac tu ngay khong dung");
+                lblthongbao.Text = "mã không được để trống";
             }
 
         }

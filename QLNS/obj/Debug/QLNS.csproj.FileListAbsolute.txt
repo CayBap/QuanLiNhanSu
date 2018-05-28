@@ -70,3 +70,7 @@ D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.add.resources
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.frmdelete.resources
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.frmupdate.resources
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.AnalysisServices.AppLocal.Core.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.AnalysisServices.AppLocal.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.AnalysisServices.AppLocal.Tabular.dll
+D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.TKTrinhDoChuyenMon.frmTKTrinhDoChuyenMon.resources

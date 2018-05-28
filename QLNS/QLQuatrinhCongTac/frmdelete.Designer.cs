@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtNoiCongTac = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblthongbao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // dtpTuNgay
@@ -83,7 +84,7 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCancel.Location = new System.Drawing.Point(232, 287);
+            this.btnCancel.Location = new System.Drawing.Point(235, 302);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(65, 23);
             this.btnCancel.TabIndex = 35;
@@ -97,7 +98,7 @@
             this.btnxoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnxoa.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnxoa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnxoa.Location = new System.Drawing.Point(83, 287);
+            this.btnxoa.Location = new System.Drawing.Point(83, 302);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(65, 23);
             this.btnxoa.TabIndex = 34;
@@ -157,11 +158,22 @@
             this.label2.Text = "Nơi Công Tác";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // lblthongbao
+            // 
+            this.lblthongbao.AutoSize = true;
+            this.lblthongbao.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblthongbao.ForeColor = System.Drawing.Color.Red;
+            this.lblthongbao.Location = new System.Drawing.Point(148, 263);
+            this.lblthongbao.Name = "lblthongbao";
+            this.lblthongbao.Size = new System.Drawing.Size(0, 17);
+            this.lblthongbao.TabIndex = 46;
+            // 
             // frmdelete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(394, 396);
+            this.Controls.Add(this.lblthongbao);
             this.Controls.Add(this.dtpDenNgay);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtChucVu);
@@ -195,5 +207,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNoiCongTac;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblthongbao;
     }
 }

@@ -41,6 +41,7 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnupdate = new System.Windows.Forms.Button();
             this.btnsearch = new System.Windows.Forms.Button();
+            this.lblthongbao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // dtpDenNgay
@@ -169,11 +170,22 @@
             this.btnsearch.UseVisualStyleBackColor = false;
             this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
+            // lblthongbao
+            // 
+            this.lblthongbao.AutoSize = true;
+            this.lblthongbao.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblthongbao.ForeColor = System.Drawing.Color.Red;
+            this.lblthongbao.Location = new System.Drawing.Point(105, 237);
+            this.lblthongbao.Name = "lblthongbao";
+            this.lblthongbao.Size = new System.Drawing.Size(0, 17);
+            this.lblthongbao.TabIndex = 59;
+            // 
             // frmupdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(372, 319);
+            this.Controls.Add(this.lblthongbao);
             this.Controls.Add(this.btnsearch);
             this.Controls.Add(this.dtpDenNgay);
             this.Controls.Add(this.label6);
@@ -210,5 +222,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.Button btnsearch;
+        private System.Windows.Forms.Label lblthongbao;
     }
 }
