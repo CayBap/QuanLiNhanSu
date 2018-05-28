@@ -104,9 +104,9 @@ namespace QLNS
 
         }
 
-        private void trìnhĐộNgoạiNgữToolStripMenuItem_Click(object sender, EventArgs e)
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
-            new frmTrinhDoNgoaiNgu().ShowDialog();
+
         }
     }
 }

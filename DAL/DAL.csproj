@@ -43,7 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
+<<<<<<< HEAD
     <Compile Include="NhanVienChucVuDAL.cs" />
+=======
+>>>>>>> 7f686a8e5549bc51d8f93ea5646ffb67eed8d3f9
     <Compile Include="QuaTrinhCongTacDAL.cs" />
     <Compile Include="UserDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

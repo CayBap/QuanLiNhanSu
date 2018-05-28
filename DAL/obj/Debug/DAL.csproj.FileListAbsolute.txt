@@ -25,6 +25,7 @@ D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.c
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.dll
 D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DAL.pdb
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\bin\Debug\DTO.dll
@@ -34,3 +35,5 @@ D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cac
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.pdb
+=======
+>>>>>>> 7f686a8e5549bc51d8f93ea5646ffb67eed8d3f9
