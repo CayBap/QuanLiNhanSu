@@ -94,10 +94,7 @@ namespace DAL
                     };
                     list.Add(user);
                 }
-<<<<<<< HEAD
-=======
                 Connection.Close_connect();
->>>>>>> 7f686a8e5549bc51d8f93ea5646ffb67eed8d3f9
             }
             catch
             {
@@ -108,17 +105,10 @@ namespace DAL
         }
         public bool AddUser(User user)
         {
-<<<<<<< HEAD
             try
             {
                 Connection.Open_connect();
                  SqlCommand cm = new SqlCommand("INSERT INTO dbo.[User] VALUES(@tk,@mk,@fn,@ln,@bd,@role)", Connection.connect());
-=======
-            //try
-            //{
-                Connection.Open_connect();
-            SqlCommand cm = new SqlCommand("INSERT INTO dbo.[User] VALUES(@tk,@mk,@fn,@ln,@bd,@role)", Connection.connect());
->>>>>>> 7f686a8e5549bc51d8f93ea5646ffb67eed8d3f9
                 cm.Parameters.AddWithValue("tk", user.UserName);
                 cm.Parameters.AddWithValue("mk", user.Password);
                 cm.Parameters.AddWithValue("fn", user.FirstName);
