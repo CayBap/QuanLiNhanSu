@@ -435,6 +435,5 @@
         private System.Windows.Forms.ToolStripMenuItem báoCáoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trìnhĐộChuyênMônToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trìnhĐộNgoạiNgữToolStripMenuItem;
-        private object contextMenuStrip1;
     }
 }
