@@ -91,20 +91,25 @@ namespace QLNS
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (dtgDSUser.CurrentRow.Cells[6].Value!=null)
+            DialogResult ds = MessageBox.Show("Bạn có muốn xóa người dùng này?","Thông báo",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning);
+            if(ds == DialogResult.OK)
             {
-                 int id = (int)dtgDSUser.CurrentRow.Cells[6].Value;
-                bool check = new UserBUL().DeleteUser(id);
-                if (check == true)
+                if (dtgDSUser.CurrentRow.Cells[6].Value != null)
                 {
-                    MessageBox.Show("Xóa người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    LoadDS();
-                }
-                else
-                {
-                    MessageBox.Show("Xóa người dùng thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    int id = (int)dtgDSUser.CurrentRow.Cells[6].Value;
+                    bool check = new UserBUL().DeleteUser(id);
+                    if (check == true)
+                    {
+                        MessageBox.Show("Xóa người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LoadDS();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa người dùng thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
+            
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

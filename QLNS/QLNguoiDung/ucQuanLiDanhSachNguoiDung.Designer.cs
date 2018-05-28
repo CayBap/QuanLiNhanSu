@@ -55,8 +55,9 @@
             this.panel1.Controls.Add(this.btnAdd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(730, 71);
+            this.panel1.Size = new System.Drawing.Size(973, 87);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -70,9 +71,10 @@
             this.btnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Location = new System.Drawing.Point(191, 15);
+            this.btnDelete.Location = new System.Drawing.Point(255, 18);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(30, 30);
+            this.btnDelete.Size = new System.Drawing.Size(40, 37);
             this.btnDelete.TabIndex = 0;
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -89,9 +91,10 @@
             this.btnUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Location = new System.Drawing.Point(111, 15);
+            this.btnUpdate.Location = new System.Drawing.Point(148, 18);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(30, 30);
+            this.btnUpdate.Size = new System.Drawing.Size(40, 37);
             this.btnUpdate.TabIndex = 0;
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -108,9 +111,10 @@
             this.btnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Location = new System.Drawing.Point(37, 15);
+            this.btnAdd.Location = new System.Drawing.Point(49, 18);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(30, 30);
+            this.btnAdd.Size = new System.Drawing.Size(40, 37);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -121,9 +125,10 @@
             // 
             this.panel2.Controls.Add(this.dtgDSUser);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 71);
+            this.panel2.Location = new System.Drawing.Point(0, 87);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(730, 405);
+            this.panel2.Size = new System.Drawing.Size(973, 499);
             this.panel2.TabIndex = 1;
             // 
             // dtgDSUser
@@ -140,8 +145,10 @@
             this.Column7});
             this.dtgDSUser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgDSUser.Location = new System.Drawing.Point(0, 0);
+            this.dtgDSUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgDSUser.Name = "dtgDSUser";
-            this.dtgDSUser.Size = new System.Drawing.Size(730, 405);
+            this.dtgDSUser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgDSUser.Size = new System.Drawing.Size(973, 499);
             this.dtgDSUser.TabIndex = 0;
             // 
             // Column1
@@ -185,12 +192,13 @@
             // 
             // ucQuanLiDanhSachNguoiDung
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucQuanLiDanhSachNguoiDung";
-            this.Size = new System.Drawing.Size(730, 476);
+            this.Size = new System.Drawing.Size(973, 586);
             this.Load += new System.EventHandler(this.ucQuanLiDanhSachNguoiDung_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

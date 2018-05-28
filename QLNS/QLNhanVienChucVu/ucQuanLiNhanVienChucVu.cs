@@ -132,24 +132,28 @@ namespace QLNS
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.CurrentRow.Cells[0].Value != null)
+            DialogResult ds = MessageBox.Show("Bạn có muốn xóa Chức vụ - Phòng ban?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if(ds == DialogResult.OK)
             {
-                NhanVienChucVu nv = new NhanVienChucVu()
+                if (dataGridView1.CurrentRow.Cells[0].Value != null)
                 {
-                    MaNhanVien  = dataGridView1.CurrentRow.Cells[1].Value.ToString(),
-                    MaChucVu = dataGridView1.CurrentRow.Cells[2].Value.ToString(),
-                    TuNgay = DateTime.Parse(dataGridView1.CurrentRow.Cells[3].Value.ToString()),
-                    DenNgay = DateTime.Parse(dataGridView1.CurrentRow.Cells[4].Value.ToString())
-                };
-                bool check = new NhanVienChucVuBUL().XoaNhanVienChucVu(nv);
-                if (check == true)
-                {
-                    MessageBox.Show("Xóa chức vụ nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    LoadDS();
-                }
-                else
-                {
-                    MessageBox.Show("Xóa chức vụ nhàn viên thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    NhanVienChucVu nv = new NhanVienChucVu()
+                    {
+                        MaNhanVien = dataGridView1.CurrentRow.Cells[1].Value.ToString(),
+                        MaChucVu = dataGridView1.CurrentRow.Cells[2].Value.ToString(),
+                        TuNgay = DateTime.Parse(dataGridView1.CurrentRow.Cells[3].Value.ToString()),
+                        DenNgay = DateTime.Parse(dataGridView1.CurrentRow.Cells[4].Value.ToString())
+                    };
+                    bool check = new NhanVienChucVuBUL().XoaNhanVienChucVu(nv);
+                    if (check == true)
+                    {
+                        MessageBox.Show("Xóa chức vụ nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LoadDS();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa chức vụ nhàn viên thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
