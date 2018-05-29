@@ -115,6 +115,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLNSDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="QLNSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ucIntro.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -233,6 +238,17 @@
     </None>
     <None Include="QLNSDataSet.xss">
       <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet1.xsc">
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet1.xss">
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
