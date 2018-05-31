@@ -188,5 +188,32 @@ namespace DAL
             }
             return user;
         }
+        public DataTable Gettable(string sql)
+        {
+            Connection.Open_connect();
+            SqlDataAdapter ad = new SqlDataAdapter(sql, Connection.connect());
+            DataTable dt = new DataTable();
+            ad.Fill(dt);
+            Connection.Close_connect();
+            return dt;
+        }
+        public bool  ChangePass(User user)
+        {
+            
+            //try
+            //{
+                Connection.Open_connect();
+                SqlCommand cm = new SqlCommand("UPDATE dbo.[User] SET Password = '" + user.Password+"' WHERE ID =" + user.ID, Connection.connect());
+                cm.ExecuteNonQuery();
+            
+                Connection.Close_connect();
+            //}
+            //catch
+            //{
+            //    Connection.Close_connect();
+            //    return false;
+            //}
+            return  true;
+        }
     }
 }

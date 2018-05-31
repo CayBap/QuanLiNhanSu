@@ -64,7 +64,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(136, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 41);
+            this.label1.Size = new System.Drawing.Size(295, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÍ NHÂN SỰ";
             // 
@@ -109,7 +109,7 @@
             this.lblThongBao.ForeColor = System.Drawing.Color.Red;
             this.lblThongBao.Location = new System.Drawing.Point(122, 149);
             this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(0, 17);
+            this.lblThongBao.Size = new System.Drawing.Size(0, 13);
             this.lblThongBao.TabIndex = 4;
             this.lblThongBao.Click += new System.EventHandler(this.lblThongBao_Click);
             // 
@@ -133,7 +133,7 @@
             this.chkForgetPass.AutoSize = true;
             this.chkForgetPass.Location = new System.Drawing.Point(122, 125);
             this.chkForgetPass.Name = "chkForgetPass";
-            this.chkForgetPass.Size = new System.Drawing.Size(138, 21);
+            this.chkForgetPass.Size = new System.Drawing.Size(114, 17);
             this.chkForgetPass.TabIndex = 2;
             this.chkForgetPass.Text = "Quên mật khẩu";
             this.chkForgetPass.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@
             this.txtPassword.Location = new System.Drawing.Point(122, 87);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(195, 24);
+            this.txtPassword.Size = new System.Drawing.Size(195, 21);
             this.txtPassword.TabIndex = 1;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
@@ -154,7 +154,7 @@
             this.label3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(34, 93);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 17);
+            this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Mật khẩu:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -163,7 +163,7 @@
             // 
             this.txtUserName.Location = new System.Drawing.Point(122, 48);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(195, 24);
+            this.txtUserName.Size = new System.Drawing.Size(195, 21);
             this.txtUserName.TabIndex = 0;
             this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
@@ -173,14 +173,14 @@
             this.label2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(34, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 17);
+            this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tài khoản:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(584, 295);
@@ -188,6 +188,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.frmLogin_Load);

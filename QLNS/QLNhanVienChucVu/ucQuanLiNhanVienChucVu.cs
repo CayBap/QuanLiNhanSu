@@ -18,10 +18,13 @@ namespace QLNS
         {
             InitializeComponent();
         }
-
+        public static string maTimKiem;
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
             LoadDS();
+            txtTimKiem.Text = maTimKiem;
+           // MessageBox.Show(maTimKiem);
+            SetData();
         }
         void LoadDS()
         {
@@ -78,7 +81,7 @@ namespace QLNS
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            if (txtTimKiem.Text != null)
+            if (txtTimKiem.Text != "")
             {
                 List<NhanVienChucVu> list = new NhanVienChucVuBUL().GetListNhanVienChucVu();
                 string ma = txtTimKiem.Text;
@@ -97,8 +100,64 @@ namespace QLNS
                     }
                 }
             }
+            else
+            {
+                List<NhanVienChucVu> list = new NhanVienChucVuBUL().GetListNhanVienChucVu();
+                dataGridView1.Rows.Clear();
+                if (list != null)
+                {
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        dataGridView1.Rows.Add();
+                        dataGridView1.Rows[i].Cells[0].Value = (i + 1);
+                        dataGridView1.Rows[i].Cells[1].Value = list[i].MaNhanVien;
+                        dataGridView1.Rows[i].Cells[2].Value = list[i].MaChucVu;
+                        dataGridView1.Rows[i].Cells[3].Value = list[i].TuNgay.ToShortDateString();
+                        dataGridView1.Rows[i].Cells[4].Value = list[i].DenNgay.ToShortDateString();
+                    }
+                }
+            }
         }
+        void SetData()
+        {
 
+            if (txtTimKiem.Text != "")
+            {
+                List<NhanVienChucVu> list = new NhanVienChucVuBUL().GetListNhanVienChucVu();
+                string ma = txtTimKiem.Text;
+                list = list.Where(s => s.MaNhanVien == ma).ToList();
+                dataGridView1.Rows.Clear();
+                if (list != null)
+                {
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        dataGridView1.Rows.Add();
+                        dataGridView1.Rows[i].Cells[0].Value = (i + 1);
+                        dataGridView1.Rows[i].Cells[1].Value = list[i].MaNhanVien;
+                        dataGridView1.Rows[i].Cells[2].Value = list[i].MaChucVu;
+                        dataGridView1.Rows[i].Cells[3].Value = list[i].TuNgay.ToShortDateString();
+                        dataGridView1.Rows[i].Cells[4].Value = list[i].DenNgay.ToShortDateString();
+                    }
+                }
+            }
+            else
+            {
+                List<NhanVienChucVu> list = new NhanVienChucVuBUL().GetListNhanVienChucVu();
+                dataGridView1.Rows.Clear();
+                if (list != null)
+                {
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        dataGridView1.Rows.Add();
+                        dataGridView1.Rows[i].Cells[0].Value = (i + 1);
+                        dataGridView1.Rows[i].Cells[1].Value = list[i].MaNhanVien;
+                        dataGridView1.Rows[i].Cells[2].Value = list[i].MaChucVu;
+                        dataGridView1.Rows[i].Cells[3].Value = list[i].TuNgay.ToShortDateString();
+                        dataGridView1.Rows[i].Cells[4].Value = list[i].DenNgay.ToShortDateString();
+                    }
+                }
+            }
+        }
         private void txtTimKiem_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)

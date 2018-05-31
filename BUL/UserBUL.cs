@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DTO;
 using DAL;
+using System.Data;
 namespace BUL
 {
     public class UserBUL
@@ -38,6 +39,14 @@ namespace BUL
         public User GetUserByID(int id)
         {
             return new UserDAL().GetUserByID(id);
+        }
+        public DataTable GetTabble(string sql)
+        {
+            return new UserDAL().Gettable(sql);
+        }
+        public bool ChangePass(User user)
+        {
+            return new UserDAL().ChangePass(user);
         }
     }
 }

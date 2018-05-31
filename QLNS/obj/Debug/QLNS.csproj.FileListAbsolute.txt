@@ -1,152 +1,109 @@
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\QLNS.exe.config
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\QLNS.exe
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\QLNS.pdb
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.csprojResolveAssemblyReference.cache
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.Properties.Resources.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.csproj.GenerateResource.cache
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.exe
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.pdb
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.frmMain.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\BUL.dll
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\DTO.dll
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\BUL.pdb
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\DTO.pdb
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.csproj.CopyComplete
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.frmLogin.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\DAL.dll
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\DAL.pdb
-D:\TaiLieu\BTLWindow\QLNS\QLNS\bin\Debug\DAL.dll.config
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.ucQuanLiThongTinCaNhan.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.ucQuanLiCongTac.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.ucQuanLiHoSo.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.ucQuanLiDanhSachNguoiDung.resources
-D:\TaiLieu\BTLWindow\QLNS\QLNS\obj\Debug\QLNS.QLNguoiDung.frmAddUser.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\QLNS.exe.config
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\QLNS.exe
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\QLNS.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\BUL.dll
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\DTO.dll
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\DAL.dll
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\BUL.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\DTO.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\DAL.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\bin\Debug\DAL.dll.config
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csprojResolveAssemblyReference.cache
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmLogin.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmMain.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.Properties.Resources.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLNguoiDung.frmAddUser.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiCongTac.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiDanhSachNguoiDung.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiHoSo.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiThongTinCaNhan.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.GenerateResource.Cache
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.exe
-D:\study\study school\nam 3 ky 2\la windows\BTL-CSHAP\QuanLiNhanSu\QLNS\obj\Debug\QLNS.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\QLNS.exe.config
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\QLNS.exe
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\QLNS.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\BUL.dll
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\DTO.dll
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\DAL.dll
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\BUL.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\DTO.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\bin\Debug\DAL.pdb
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csprojResolveAssemblyReference.cache
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmLogin.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmMain.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.Properties.Resources.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLNguoiDung.frmAddUser.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiCongTac.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiDanhSachNguoiDung.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiHoSo.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiThongTinCaNhan.resources
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.GenerateResource.Cache
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.exe
-D:\study\study school\nam 3 ky 2\la windows\BTL\QuanLiNhanSu\QLNS\obj\Debug\QLNS.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\QLNS.exe.config
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\QLNS.exe
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\QLNS.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\BUL.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\DTO.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\DAL.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\BUL.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\DTO.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\DAL.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csprojResolveAssemblyReference.cache
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmLogin.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmMain.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.Properties.Resources.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLNguoiDung.frmAddUser.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLNguoiDung.frmUpdateUser.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiCongTac.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiDanhSachNguoiDung.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiHoSo.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiNhanVienChucVu.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucQuanLiThongTinCaNhan.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.GenerateResource.cache
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.csproj.CopyComplete
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.exe
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.pdb
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLNhanVienChucVu.frmSuaNhanVienChucVu.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.QLNhanVienChucVu.frmAddNhanVienChucVu.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.ucIntro.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.SqlServer.Types.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\obj\Debug\QLNS.frmTrinhDoNgoaiNgu.resources
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.ReportViewer.Common.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.ReportViewer.Design.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\EnvDTE.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\stdole.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\Microsoft.MSXML.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-D:\TaiLieu\BTLWindow\QuanLiNhanSu\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\obj\Debug\QLNS.csprojResolveAssemblyReference.cache
+D:\QuanLi\QLNS\obj\Debug\QLNS.frmLogin.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.frmMain.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.Properties.Resources.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLHoSo.frmAddHoSo.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLHoSo.frmChangeHoSo.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLNguoiDung.frmAddUser.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLNguoiDung.frmUpdateUser.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLNhanVienChucVu.frmAddNhanVienChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLNhanVienChucVu.frmSuaNhanVienChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.frmAdd.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.frmupdate.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLTrinhDoChuyenMon.frmThongKeTrinhDoChuyenMon.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLTrinhDoNgoaiNgu.frmAddTDNN.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLTrinhDoNgoaiNgu.frmChangeTDNN.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLTrinhDoNgoaiNgu.frmThongKeNgoaiNgu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucIntro.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiCongTac.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiDanhSachNguoiDung.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiHoSo.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiNhanVienChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiThongTinCaNhan.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiTrinhDoNgoaiNgu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.csproj.GenerateResource.cache
+D:\QuanLi\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
+D:\QuanLi\QLNS\bin\Debug\QLNS.exe.config
+D:\QuanLi\QLNS\bin\Debug\QLNS.exe
+D:\QuanLi\QLNS\bin\Debug\QLNS.pdb
+D:\QuanLi\QLNS\bin\Debug\BUL.dll
+D:\QuanLi\QLNS\bin\Debug\DTO.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\QuanLi\QLNS\bin\Debug\DAL.dll
+D:\QuanLi\QLNS\bin\Debug\EnvDTE.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\QuanLi\QLNS\bin\Debug\stdole.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\QuanLi\QLNS\bin\Debug\Microsoft.MSXML.dll
+D:\QuanLi\QLNS\bin\Debug\BUL.pdb
+D:\QuanLi\QLNS\bin\Debug\DTO.pdb
+D:\QuanLi\QLNS\bin\Debug\DAL.pdb
+D:\QuanLi\QLNS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\QuanLi\QLNS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\QuanLi\QLNS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\QuanLi\QLNS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\QuanLi\QLNS\obj\Debug\QLNS.csproj.CopyComplete
+D:\QuanLi\QLNS\obj\Debug\QLNS.exe
+D:\QuanLi\QLNS\obj\Debug\QLNS.pdb
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLTrinhDoChuyenMon.frmAddTDCM.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLTrinhDoChuyenMon.frmChangeTDCM.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiTrinhDoChuyenMon.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ChucVu.frmAddChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ChucVu.frmDeleteChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ChucVu.frmUpdateChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQLChucVu.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLPhongBan.frmAddPB.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLPhongBan.frmDeletePB.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLPhongBan.frmUpdatePb.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.ucQuanLiPhongBan.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLQuatrinhCongTac.add.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.TT_ứng_dụng.TTUDng.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.GiupDo.ucDongGopYKien.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.GiupDo.ucThongTinNhaPhatTrien.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.GiupDo.ucThongTinUngDung.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLNguoiDung.frmChangePass.resources
+D:\QuanLi\QLNS\obj\Debug\QLNS.QLHoSo.frmInHoSo.resources

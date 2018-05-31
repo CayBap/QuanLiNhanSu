@@ -42,10 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChucVuDAL.cs" />
     <Compile Include="Connection.cs" />
+    <Compile Include="HoSoDAL.cs" />
     <Compile Include="NhanVienChucVuDAL.cs" />
-
+    <Compile Include="PhongBanDAL.cs" />
     <Compile Include="QuaTrinhCongTacDAL.cs" />
+    <Compile Include="TrinhDoChuyenMonDAL.cs" />
+    <Compile Include="TrinhDoNgoaiNguDAL.cs" />
     <Compile Include="UserDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

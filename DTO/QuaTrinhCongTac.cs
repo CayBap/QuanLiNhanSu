@@ -22,5 +22,7 @@ namespace DTO
             this.NoiCongTac = noicongtac;
             this.ChucVu = chucvu;
         }
+
+       
     }
 }

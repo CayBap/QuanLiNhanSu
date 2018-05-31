@@ -34,3 +34,12 @@ D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cac
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DAL\obj\Debug\DAL.pdb
+D:\QuanLi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\QuanLi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\QuanLi\DAL\obj\Debug\DAL.dll
+D:\QuanLi\DAL\obj\Debug\DAL.pdb
+D:\QuanLi\DAL\bin\Debug\DAL.dll
+D:\QuanLi\DAL\bin\Debug\DAL.pdb
+D:\QuanLi\DAL\bin\Debug\DTO.dll
+D:\QuanLi\DAL\bin\Debug\DTO.pdb
+D:\QuanLi\DAL\obj\Debug\DAL.csproj.CopyComplete

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUL;
-
+using QLNS.Helper;
 using DTO;
 namespace QLNS
 {
@@ -28,7 +28,8 @@ namespace QLNS
         {
             if (txtUserName.Text.Trim()!=""&&txtPassword.Text.Trim()!="")
             {
-                User user = new UserBUL().GetUserLogin(txtUserName.Text, txtPassword.Text);
+                string pass = new Bcrypt().HashPass(txtPassword.Text);
+                User user = new UserBUL().GetUserLogin(txtUserName.Text, pass);
                 if (user != null)
                 {
                     this.Hide();

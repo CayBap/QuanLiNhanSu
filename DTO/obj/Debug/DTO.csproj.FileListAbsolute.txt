@@ -22,3 +22,8 @@ D:\TaiLieu\BTLWindow\QuanLiNhanSu\DTO\obj\Debug\DTO.csprojResolveAssemblyReferen
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DTO\obj\Debug\DTO.dll
 D:\TaiLieu\BTLWindow\QuanLiNhanSu\DTO\obj\Debug\DTO.pdb
+D:\QuanLi\DTO\bin\Debug\DTO.dll
+D:\QuanLi\DTO\bin\Debug\DTO.pdb
+D:\QuanLi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\QuanLi\DTO\obj\Debug\DTO.dll
+D:\QuanLi\DTO\obj\Debug\DTO.pdb

@@ -65,6 +65,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChucVu\frmAddChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucVu\frmAddChucVu.Designer.cs">
+      <DependentUpon>frmAddChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucVu\frmDeleteChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucVu\frmDeleteChucVu.Designer.cs">
+      <DependentUpon>frmDeleteChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucVu\frmUpdateChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucVu\frmUpdateChucVu.Designer.cs">
+      <DependentUpon>frmUpdateChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucVu\ucQLChucVu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucVu\ucQLChucVu.Designer.cs">
+      <DependentUpon>ucQLChucVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,20 +101,62 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTrinhDoNgoaiNgu.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GiupDo\TTUDng.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="frmTrinhDoNgoaiNgu.Designer.cs">
-      <DependentUpon>frmTrinhDoNgoaiNgu.cs</DependentUpon>
+    <Compile Include="GiupDo\TTUDng.Designer.cs">
+      <DependentUpon>TTUDng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiupDo\ucDongGopYKien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GiupDo\ucDongGopYKien.Designer.cs">
+      <DependentUpon>ucDongGopYKien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiupDo\ucThongTinNhaPhatTrien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GiupDo\ucThongTinNhaPhatTrien.Designer.cs">
+      <DependentUpon>ucThongTinNhaPhatTrien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiupDo\ucThongTinUngDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GiupDo\ucThongTinUngDung.Designer.cs">
+      <DependentUpon>ucThongTinUngDung.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper\Bcrypt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLHoSo\frmAddHoSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHoSo\frmAddHoSo.Designer.cs">
+      <DependentUpon>frmAddHoSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLHoSo\frmChangeHoSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHoSo\frmChangeHoSo.Designer.cs">
+      <DependentUpon>frmChangeHoSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLHoSo\frmInHoSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHoSo\frmInHoSo.Designer.cs">
+      <DependentUpon>frmInHoSo.cs</DependentUpon>
+    </Compile>
     <Compile Include="QLNguoiDung\frmAddUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="QLNguoiDung\frmAddUser.Designer.cs">
       <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNguoiDung\frmChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNguoiDung\frmChangePass.Designer.cs">
+      <DependentUpon>frmChangePass.cs</DependentUpon>
     </Compile>
     <Compile Include="QLNguoiDung\frmUpdateUser.cs">
       <SubType>Form</SubType>
@@ -110,15 +176,88 @@
     <Compile Include="QLNhanVienChucVu\frmSuaNhanVienChucVu.Designer.cs">
       <DependentUpon>frmSuaNhanVienChucVu.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLNSDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    <Compile Include="QLPhongBan\frmAddPB.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QLNSDataSet1.Designer.cs">
+    <Compile Include="QLPhongBan\frmAddPB.Designer.cs">
+      <DependentUpon>frmAddPB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhongBan\frmDeletePB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhongBan\frmDeletePB.Designer.cs">
+      <DependentUpon>frmDeletePB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhongBan\frmUpdatePb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhongBan\frmUpdatePb.Designer.cs">
+      <DependentUpon>frmUpdatePb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhongBan\ucQuanLiPhongBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QLPhongBan\ucQuanLiPhongBan.Designer.cs">
+      <DependentUpon>ucQuanLiPhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\add.Designer.cs">
+      <DependentUpon>add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmAdd.Designer.cs">
+      <DependentUpon>frmAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLQuatrinhCongTac\frmupdate.Designer.cs">
+      <DependentUpon>frmupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTrinhDoChuyenMon\frmAddTDCM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTrinhDoChuyenMon\frmAddTDCM.designer.cs">
+      <DependentUpon>frmAddTDCM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTrinhDoChuyenMon\frmChangeTDCM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTrinhDoChuyenMon\frmChangeTDCM.Designer.cs">
+      <DependentUpon>frmChangeTDCM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTrinhDoChuyenMon\frmThongKeTrinhDoChuyenMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTrinhDoChuyenMon\frmThongKeTrinhDoChuyenMon.Designer.cs">
+      <DependentUpon>frmThongKeTrinhDoChuyenMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTrinhDoNgoaiNgu\frmAddTDNN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTrinhDoNgoaiNgu\frmAddTDNN.designer.cs">
+      <DependentUpon>frmAddTDNN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTrinhDoNgoaiNgu\frmChangeTDNN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTrinhDoNgoaiNgu\frmChangeTDNN.designer.cs">
+      <DependentUpon>frmChangeTDNN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTrinhDoNgoaiNgu\frmThongKeNgoaiNgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTrinhDoNgoaiNgu\frmThongKeNgoaiNgu.Designer.cs">
+      <DependentUpon>frmThongKeNgoaiNgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SourceReport.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+      <DependentUpon>SourceReport.xsd</DependentUpon>
     </Compile>
     <Compile Include="ucIntro.cs">
       <SubType>UserControl</SubType>
@@ -126,10 +265,10 @@
     <Compile Include="ucIntro.Designer.cs">
       <DependentUpon>ucIntro.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiCongTac.cs">
+    <Compile Include="QLQuatrinhCongTac\ucQuanLiCongTac.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiCongTac.Designer.cs">
+    <Compile Include="QLQuatrinhCongTac\ucQuanLiCongTac.Designer.cs">
       <DependentUpon>ucQuanLiCongTac.cs</DependentUpon>
     </Compile>
     <Compile Include="QLNguoiDung\ucQuanLiDanhSachNguoiDung.cs">
@@ -138,10 +277,10 @@
     <Compile Include="QLNguoiDung\ucQuanLiDanhSachNguoiDung.Designer.cs">
       <DependentUpon>ucQuanLiDanhSachNguoiDung.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiHoSo.cs">
+    <Compile Include="QLHoSo\ucQuanLiHoSo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiHoSo.Designer.cs">
+    <Compile Include="QLHoSo\ucQuanLiHoSo.Designer.cs">
       <DependentUpon>ucQuanLiHoSo.cs</DependentUpon>
     </Compile>
     <Compile Include="QLNhanVienChucVu\ucQuanLiNhanVienChucVu.cs">
@@ -150,32 +289,53 @@
     <Compile Include="QLNhanVienChucVu\ucQuanLiNhanVienChucVu.Designer.cs">
       <DependentUpon>ucQuanLiNhanVienChucVu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiThongTinCaNhan.cs">
+    <Compile Include="QLNguoiDung\ucQuanLiThongTinCaNhan.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiThongTinCaNhan.Designer.cs">
+    <Compile Include="QLNguoiDung\ucQuanLiThongTinCaNhan.Designer.cs">
       <DependentUpon>ucQuanLiThongTinCaNhan.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiTrinhDoChuyenMon.cs">
+    <Compile Include="QLTrinhDoChuyenMon\ucQuanLiTrinhDoChuyenMon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiTrinhDoChuyenMon.Designer.cs">
+    <Compile Include="QLTrinhDoChuyenMon\ucQuanLiTrinhDoChuyenMon.Designer.cs">
       <DependentUpon>ucQuanLiTrinhDoChuyenMon.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQuanLiTrinhDoNgoaiNgu.cs">
+    <Compile Include="QLTrinhDoNgoaiNgu\ucQuanLiTrinhDoNgoaiNgu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQuanLiTrinhDoNgoaiNgu.Designer.cs">
+    <Compile Include="QLTrinhDoNgoaiNgu\ucQuanLiTrinhDoNgoaiNgu.Designer.cs">
       <DependentUpon>ucQuanLiTrinhDoNgoaiNgu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChucVu\frmAddChucVu.resx">
+      <DependentUpon>frmAddChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucVu\frmDeleteChucVu.resx">
+      <DependentUpon>frmDeleteChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucVu\frmUpdateChucVu.resx">
+      <DependentUpon>frmUpdateChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucVu\ucQLChucVu.resx">
+      <DependentUpon>ucQLChucVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTrinhDoNgoaiNgu.resx">
-      <DependentUpon>frmTrinhDoNgoaiNgu.cs</DependentUpon>
+    <EmbeddedResource Include="GiupDo\TTUDng.resx">
+      <DependentUpon>TTUDng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiupDo\ucDongGopYKien.resx">
+      <DependentUpon>ucDongGopYKien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiupDo\ucThongTinNhaPhatTrien.resx">
+      <DependentUpon>ucThongTinNhaPhatTrien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiupDo\ucThongTinUngDung.resx">
+      <DependentUpon>ucThongTinUngDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -186,8 +346,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QLHoSo\frmAddHoSo.resx">
+      <DependentUpon>frmAddHoSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHoSo\frmChangeHoSo.resx">
+      <DependentUpon>frmChangeHoSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHoSo\frmInHoSo.resx">
+      <DependentUpon>frmInHoSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHoSo\rpInHoSo.rdlc" />
     <EmbeddedResource Include="QLNguoiDung\frmAddUser.resx">
       <DependentUpon>frmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNguoiDung\frmChangePass.resx">
+      <DependentUpon>frmChangePass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLNguoiDung\frmUpdateUser.resx">
       <DependentUpon>frmUpdateUser.cs</DependentUpon>
@@ -198,24 +371,70 @@
     <EmbeddedResource Include="QLNhanVienChucVu\frmSuaNhanVienChucVu.resx">
       <DependentUpon>frmSuaNhanVienChucVu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rpTrinhDoNgoaiNgu.rdlc" />
+    <EmbeddedResource Include="QLPhongBan\frmAddPB.resx">
+      <DependentUpon>frmAddPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhongBan\frmDeletePB.resx">
+      <DependentUpon>frmDeletePB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhongBan\frmUpdatePb.resx">
+      <DependentUpon>frmUpdatePb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhongBan\ucQuanLiPhongBan.resx">
+      <DependentUpon>ucQuanLiPhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLQuatrinhCongTac\add.resx">
+      <DependentUpon>add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLQuatrinhCongTac\frmAdd.resx">
+      <DependentUpon>frmAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLQuatrinhCongTac\frmupdate.resx">
+      <DependentUpon>frmupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoChuyenMon\frmAddTDCM.resx">
+      <DependentUpon>frmAddTDCM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoChuyenMon\frmChangeTDCM.resx">
+      <DependentUpon>frmChangeTDCM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoChuyenMon\frmThongKeTrinhDoChuyenMon.resx">
+      <DependentUpon>frmThongKeTrinhDoChuyenMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoChuyenMon\rpThongKeTrinfhDoChuyenMon.rdlc" />
+    <EmbeddedResource Include="QLTrinhDoNgoaiNgu\frmAddTDNN.resx">
+      <DependentUpon>frmAddTDNN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoNgoaiNgu\frmChangeTDNN.resx">
+      <DependentUpon>frmChangeTDNN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoNgoaiNgu\frmThongKeNgoaiNgu.resx">
+      <DependentUpon>frmThongKeNgoaiNgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoNgoaiNgu\rpThongKeNgoaiNgu.rdlc" />
     <EmbeddedResource Include="ucIntro.resx">
       <DependentUpon>ucIntro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQuanLiCongTac.resx">
+    <EmbeddedResource Include="QLQuatrinhCongTac\ucQuanLiCongTac.resx">
       <DependentUpon>ucQuanLiCongTac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLNguoiDung\ucQuanLiDanhSachNguoiDung.resx">
       <DependentUpon>ucQuanLiDanhSachNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQuanLiHoSo.resx">
+    <EmbeddedResource Include="QLHoSo\ucQuanLiHoSo.resx">
       <DependentUpon>ucQuanLiHoSo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLNhanVienChucVu\ucQuanLiNhanVienChucVu.resx">
       <DependentUpon>ucQuanLiNhanVienChucVu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQuanLiThongTinCaNhan.resx">
+    <EmbeddedResource Include="QLNguoiDung\ucQuanLiThongTinCaNhan.resx">
       <DependentUpon>ucQuanLiThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoChuyenMon\ucQuanLiTrinhDoChuyenMon.resx">
+      <DependentUpon>ucQuanLiTrinhDoChuyenMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTrinhDoNgoaiNgu\ucQuanLiTrinhDoNgoaiNgu.resx">
+      <DependentUpon>ucQuanLiTrinhDoNgoaiNgu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\DTO.NhanVienChucVu.datasource" />
@@ -228,27 +447,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="QLNSDataSet.xsc">
-      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    <None Include="SourceReport.xsc">
+      <DependentUpon>SourceReport.xsd</DependentUpon>
     </None>
-    <None Include="QLNSDataSet.xsd">
+    <None Include="SourceReport.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLNSDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>SourceReport.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="QLNSDataSet.xss">
-      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="QLNSDataSet1.xsc">
-      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="QLNSDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLNSDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QLNSDataSet1.xss">
-      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    <None Include="SourceReport.xss">
+      <DependentUpon>SourceReport.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -264,5 +472,6 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
